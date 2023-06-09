@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+#skill{
+
+    background-color: gray;
+    margin-top: 250px;
+
+}
+.skill h1{
+    font-size: 75px;
+    text-align: center;
+}
+
+.skill{
+    width: 500px;
+    margin:60px auto;
+    color: black;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar{
+    background: white;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.12), 0 10px 10px rgba(0,0,0,0.24);
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: gold;
+}
+
+.html{
+    width: 100%;
+    animation: html 3s;
+}
+.java{
+    width: 90%;
+    animation: java 3s;
+}
+
+.mysql{
+    width: 70%;
+    animation: mysql 3s;
+}
+.css{
+    width: 75%;
+    animation: css 3s;
+}
+.figma{
+    width: 90%;
+    animation: figma 3s;
+}
+.javafx{
+    width: 60%;
+    animation: javafx 3s;
+}
+
+@keyframes java {
+    0%{
+        width: 0%;
+    }100%{
+    width: 70%;
+         }
+
+}@keyframes javafx {
+    0%{
+        width: 0%;
+    }100%{
+    width: 80%;
+         }
+
+}@keyframes mysql {
+    0%{
+        width: 0%;
+    }100%{
+    width: 70%;
+         }
+
+}@keyframes html {
+    0%{
+        width: 0%;
+    }100%{
+    width: 100%;
+         }
+
+}@keyframes css {
+    0%{
+        width: 0%;
+    }100%{
+    width: 75%;
+         }
+
+}@keyframes figma {
+    0%{
+        width: 0%;
+    }100%{
+    width: 85%;
+         }
+
+}@keyframes javascript {
+    0%{
+        width: 0%;
+    }100%{
+    width: 100%;
+         }
+
+}
+
+ @media (max-width: 800px) {
+     #skill{
+         margin-top: 900px;
+     }
+ }
+
+

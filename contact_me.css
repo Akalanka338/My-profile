@@ -1,0 +1,121 @@
+#contact{
+    margin-top: 150px;
+}
+/*
+
+.btn{
+    width: 100px;
+    height: 40px;
+    color: black;
+    border: 1px solid black;
+    background: gold;
+}
+*/
+
+.btn {
+    background-color:gold;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-right{
+    flex-basis: 200%;
+}
+.contact-right{
+   right: 200px;
+}
+
+.contact-left p{
+    margin: 30px;
+}
+
+.row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.contact-left p i{
+    color: gold;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.social-icon{
+    margin-top: 30px;
+}
+
+
+.social-icon a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 50px;
+    color: #bababa;
+    display: inline-block;
+    transition: transform 0.5s;
+
+}
+
+.social-icon a:hover{
+    color: gold;
+    transform:translateY(-5px);
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+
+form .btn{
+    padding: 14px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.copyright p{
+    color: gold;
+}
+
+
+@media (max-width: 800px) {
+
+    .container .row2{
+        grid-template-columns: 1fr;
+
+    }
+    .copyright{
+        font-size: 14px;
+    }
+}
+
